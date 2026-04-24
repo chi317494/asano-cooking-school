@@ -1,0 +1,17 @@
+# ★ デプロイ後、Netlify管理画面でフォームのメール通知を設定してください
+# Site configuration → Forms → inquiry → Form notifications → Email notification
+# → chi317494@gmail.com を入力して保存
+
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Content-Type = "text/html; charset=UTF-8"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Content-Type = "text/html; charset=UTF-8"
