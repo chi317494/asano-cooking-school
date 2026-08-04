@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vite-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 5173
+    },
+    {
+      "name": "kondate-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "http-server", "C:/Users/hukus/AppData/Local/Temp/claude/C--Users-hukus-Downloads-asano-hp-asano-site/ff092a38-ac5d-4c19-beef-0b3a57b61094/scratchpad/preview", "-p", "4599", "-c-1"],
+      "port": 4599
+    }
+  ]
+}

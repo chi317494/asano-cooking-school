@@ -1,0 +1,13 @@
+# Local Netlify folder
+.netlify
+
+# 依存パッケージ（自動生成されるためGitHubには保存しない）
+node_modules
+
+# ビルド結果（自動生成されるためGitHubには保存しない）
+dist
+
+# エディタ・OSの一時ファイル
+.DS_Store
+Thumbs.db
+.claude/settings.local.json
